@@ -1,0 +1,88 @@
+body *{
+    font-family:  'Times New Roman', Times, serif;
+}
+
+#oldalrol{
+    
+    h2{
+        animation: fade-up 0.5s;
+    }
+    p{
+        animation: fade-up 1s;
+    }
+}
+
+
+#nav-link{
+    padding: 10px;
+}
+
+#author{
+    padding-top: 10px;
+}
+
+p{
+    font-size: large;
+}
+
+#elso, #masodik, #harmadik{
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 30px;
+}
+
+#elso{
+    animation: fade-up 0.5s;
+}
+
+#masodik{
+    animation: fade-up 0.7s;
+}
+
+#harmadik{
+    animation: fade-up 0.9s;
+}
+
+#imgwinfo{
+    animation: fade-up 0.5s;
+}
+
+#first_table{
+    animation: fade-up 0.8s;
+}
+
+#second_table{
+    animation: fade-up 1s;
+}
+
+
+#main_kapcsolat{
+    h2{
+        animation: fade-up 0.3s;
+    }
+    h4{
+        animation: fade-up 0.5s;
+    }
+    li{
+        animation: fade-up 0.7s;
+    }
+}
+
+#kapcsolat{
+    li{
+        font-size: larger;
+    }
+}
+
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
